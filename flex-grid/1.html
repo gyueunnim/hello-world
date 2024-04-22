@@ -1,0 +1,84 @@
+<head>
+  <meta charset="UTF-8" />
+  <title>Title</title>
+  <style>
+    .wrap {
+      display: flex;
+      background-color: gainsboro;
+      width: 500px;
+      height: 500px;
+
+      /* 1번
+      justify-content: center;
+      align-items: center; 
+      */
+
+      /* 2번
+      align-items: flex-end;
+       */
+
+      /* 3번
+      justify-content: flex-end;
+        */
+
+      /* 4번 
+      justify-content: flex-end;
+      align-items: center;
+      */
+
+      /* 5번
+      justify-content: space-between;
+       */
+
+      /* 6번
+      justify-content: space-between;
+      align-items: flex-end;
+        */
+
+      /* 7번
+      align-items: center;
+      justify-content: space-around;
+         */
+
+      /* 8번
+       flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+       */
+
+      /* 9번
+      justify-content: center;
+      align-items: flex-end;
+        */
+
+      /* 10번
+         */
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .wrap > div {
+      color: white;
+      line-height: 100px;
+      text-align: center;
+      font-size: 40px;
+      width: 100px;
+      height: 100px;
+    }
+    .blue {
+      background-color: #4967d8;
+    }
+    .red {
+      background-color: darkred;
+    }
+    .green {
+      background-color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="blue">A</div>
+    <div class="red">B</div>
+    <div class="green">C</div>
+  </div>
+</body>
